@@ -1,8 +1,150 @@
 body {
-  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f9bf81;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #685335;
+  font-family: "Crimson Text", serif;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+.front,
+.back {
+}
+
+.front {
   width: 100vw;
+  height: 100vh;
+  padding: 0;
+  background-color: #f9bf81;
+  position: fixed;
+  z-index: -1;
+
+  display: grid;
+  grid-template-columns: 60vw 40vw;
+  grid-template-rows: 55vh 35vh auto;
+  grid-auto-flow: row;
+}
+
+.front p:nth-child(1) {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  text-align: right;
+  padding-right: 0;
+}
+
+.front p:nth-child(2) {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  padding-right: 10vw;
+}
+
+.front p:nth-child(3),
+.front p:nth-child(4) {
+  font-family: "Roboto Thin", sans-serif;
+  font-weight: 100;
+  font-size: 1em;
+  /* padding-top: 1em; */
+}
+.front p:nth-child(3) {
+  width: 55vh;
+  color: red;
+  grid-column-start: 1;
+  grid-row-start: 1;
+ padding-right: 1em;
+  text-align: right;
+  transform: rotate(-90deg);
+}
+
+.front span {
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.front p:nth-child(4) {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  padding-right: 10vw;
+  /* transform: rotate(90deg); */
+}
+
+.cursor {
+  font-weight: 100;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #685335;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #685335;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #685335;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #685335;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #685335;
+  }
+}
+
+
+.back {
+  width: 100vw;
+  height: 200vh;
+  align-items: flex-end;
+  display: flex;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #c19362; */
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #343534;
 }
