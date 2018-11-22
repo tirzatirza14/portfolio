@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f9bf81;
+  background-color: white;
 }
 
 h1 {
@@ -26,7 +26,7 @@ p {
   width: 100vw;
   height: 100vh;
   padding: 0;
-  background-color: #f9bf81;
+  background-color: white;
   position: fixed;
   z-index: -1;
 
