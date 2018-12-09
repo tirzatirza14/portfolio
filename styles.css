@@ -15,6 +15,10 @@ a {
 
 }
 
+a:hover {
+  font-weight: 800;
+}
+
 a:visited{
   color: inherit;
 }
@@ -30,10 +34,6 @@ h1 {
 p {
   margin: 0.2em;
   font-family: 'Noto Serif TC'
-}
-
-h1:hover {
-  font-weight: 800;
 }
 
 .para {
