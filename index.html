@@ -1,39 +1,69 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 <head>
-  <meta charset="utf-8">
+  <title>Alberta, Tirza</title>
+  <link rel="stylesheet" href=style.css>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,800" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- later: put them in an array, call div number that matches the array number -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#about').hover(function(){
+          $('.a-text').addClass('active');
+      },
+      function(){
+          $('.a-text').removeClass('active');
+      });
+  });
+  </script>
 
-  <title>Tirza Alberta</title>
-  <meta name="description" content="Tirza's Portfolio">
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#works').hover(function(){
+          $('.w-text').addClass('active');
+      },
+      function(){
+          $('.w-text').removeClass('active');
+      });
+  });
+  </script>
 
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
-  <link rel="icon"
-      type="image/png"
-      href="favicon.png" />
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#contact').hover(function(){
+          $('.c-text').addClass('active');
+      },
+      function(){
+          $('.c-text').removeClass('active');
+      });
+  });
+  </script>
+
 
 </head>
 
 <body>
-  <div class="front">
-    <p>T</p>
-    <p>irza is a graphic designer 🖌️ with background in interactive media arts 💻. Do say hi 👋 to her through email at <mark>tirza[dot]alberta[at]nyu.edu</mark> <em>or</em> scroll down 👇🏽 to see some of her previous works.<span class="cursor">|</span> </p>
 
-    <!-- <p>2016<span>2018</span></p> -->
+    <h1 class="btn" id="about">a</h1>
+    <h1 class="btn"id="works"><a target="_blank" href="https://drive.google.com/file/d/17e4sgCcPEhqvgychJFk4K-o74r1p-i7J/view?usp=sharing">d</a></h1>
+    <h1 class="btn" id="contact"><a target="_blank" href="mailto:tirza.alberta@nyu.edu">c</a></h1>
+    <h1 class="btn" id="year">20<sup>18</sup></h1>
 
-
-  </div>
-
-
-
-  <div class="back">
-
-    <div class="content">
-      <iframe src="https://e.issuu.com/anonymous-embed.html?u=albertatirza&d=portfolio-tirza-alberta" width="944" height="500" frameborder="0" allowfullscreen="true"/>
+    <div class="para a-text">
+      <p>Tirza's a graphic designer with background in Interactive Media Arts.</p>
+      <p>Do say hi at tirza.alberta@nyu.edu <em>or</em> click <strong>say hi</strong> below</p>
     </div>
-  </div>
+
+    <div class="para w-text">
+      <p>Click me to download the portfolio!</p>
+    </div>
+
+    <div class="para c-text">
+      <p>Click me to write to Tirza!</p>
+    </div>
+
+    <div class="gif"/>
 
 
 
