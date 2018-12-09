@@ -1,5 +1,8 @@
 body {
   font-family: "Raleway", sans-serif;
+  
+  width: 100vw;
+  height:100vh;
 
   display: grid;
   grid-template-columns: 25vw 2em auto 2em 25vw;
