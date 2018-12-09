@@ -107,7 +107,7 @@ h1:hover {
   grid-column-end: 5;
   width: 50vw;
   height: 50vh;
-  background-color: blue;
+  background-color: white;
   background-image: url(spread.gif);
   background-repeat: no-repeat;
   background-size: cover;
