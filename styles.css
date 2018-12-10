@@ -36,6 +36,10 @@ p {
   font-family: 'Noto Serif TC'
 }
 
+strong {
+  color: blue;
+}
+
 .para {
   grid-row-start: 2;
   grid-column-start: 2;
