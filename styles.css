@@ -43,7 +43,7 @@ strong {
 .para {
   grid-row-start: 2;
   grid-column-start: 2;
-  width: 50vw;
+  width: 40vw;
   height: 50vh;
 
   display: flex;
