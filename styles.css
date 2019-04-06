@@ -120,7 +120,7 @@ strong {
   background-size: cover;
   background-position: center;
   filter: grayscale(100%);
-  opacity: 0.3;
+  opacity: 0.6;
   transition-property: opacity, filter;
   transition-duration: 1s;
 }
