@@ -43,12 +43,12 @@ strong {
 .para {
   grid-row-start: 2;
   grid-column-start: 2;
-  width: 50vw;
+  width: 30vw;
   height: 50vh;
 
   display: flex;
   text-align: left;
-/*   justify-content: center; */
+  justify-content: center;
   flex-direction: column;
 
   background-color: white;
