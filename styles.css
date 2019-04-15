@@ -47,7 +47,7 @@ strong {
   height: 50vh;
 
   display: flex;
-  text-align: center;
+  text-align: left;
   justify-content: center;
   flex-direction: column;
 
