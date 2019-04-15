@@ -45,6 +45,7 @@ strong {
   grid-column-start: 2;
   width: 30vw;
   height: 50vh;
+  padding: 0 5vw;
 
   display: flex;
   text-align: left;
