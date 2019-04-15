@@ -48,7 +48,7 @@ strong {
 
   display: flex;
   text-align: left;
-  justify-content: center;
+/*   justify-content: center; */
   flex-direction: column;
 
   background-color: white;
