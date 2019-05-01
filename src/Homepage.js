@@ -20,7 +20,7 @@ class Homepage extends Component {
     return (
       <div className="Homepage">
         <div className="imageWrapper">
-          <img src="https://raw.githubusercontent.com/tirzatirza14/portfolio/master/spread.gif" />
+          <img src="https://user-images.githubusercontent.com/15258799/57022768-4612bb80-6c5a-11e9-820d-9f0532f92303.gif" />
         </div>
       </div>
     );
