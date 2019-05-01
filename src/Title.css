@@ -1,0 +1,32 @@
+/* sections */
+.titleContainer {
+  position: relative;
+  --maskX: 0;
+  --maskY: 0;
+  overflow: scroll;
+}
+
+.titleWrapper {
+  -webkit-text-stroke: 1px transparent;
+  color: transparent;
+}
+
+.cloneWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #000000;
+  /* clip-path: polygon(
+    0 0,
+    calc(var(--maskX) * 1%) 0,
+    calc(var(--maskY) *1%) 100%,
+    0 100%
+  ); */
+  transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  clip-path: polygon(
+    0 0,
+    calc(var(--maskX) * 1% + (var(--maskY) - 50) * 0.4%) 0,
+    calc(var(--maskX) * 1% + (var(--maskY) - 50) * -0.4%) 100%,
+    0 100%
+  );
+}

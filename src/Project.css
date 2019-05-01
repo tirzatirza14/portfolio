@@ -1,0 +1,15 @@
+.Project {
+  width: 75vw;
+  height: 100vh;
+  padding:10vh 5% 5% 10vw;
+  text-align: left;
+}
+
+.Project h1 {
+  font-size: 6vw;
+  margin: 0 0 5vh 0;
+}
+
+.Project p {
+
+}
