@@ -40,6 +40,7 @@ class App extends Component {
             <h1>about</h1>
           </NavLink>
           <h1><a href="https://www.linkedin.com/in/tirzaalberta/" target="_blank">linkedin</a></h1>
+          <h1><a href="https://www.behance.net/teealberta" target="_blank">behance</a></h1>
           <h1><a href="https://drive.google.com/file/d/1i2ab6mJYvlLVj1hY0kyvVJ71CyWvLFx2/view?usp=sharing" target="_blank">résumé</a></h1>
 
           <div className="titles">
