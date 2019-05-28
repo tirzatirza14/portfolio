@@ -51,15 +51,8 @@ class App extends Component {
             >
               <Title text="branding." />
             </NavLink>
-
-            <NavLink
-              exact
-              to="/project"
-              activeClassName={"active"}
-              style={{ textDecoration: "none" }}
-            >
-              <Title text="collages." />
-            </NavLink>
+      
+           <a href="https://www.behance.net/teealberta" target ="_blank"><Title text="collages." /></a>
 
             <NavLink
               exact
