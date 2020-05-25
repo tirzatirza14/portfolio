@@ -1,19 +1,19 @@
-.About, .Contact, .Project {
+.About, .Contact,  {
   text-align: center;
   display: grid;
   grid-template-columns: 75vw;
   grid-template-rows: 100vh;
-  overflow: hidden;
+
 }
 
-.para {
+.aboutText {
+  height: 100%;
+  width: 50vw;
   grid-column: 1;
   grid-row: 1;
-  display: flex;
-  align-self: center;
   text-align: left;
-  flex-direction: column;
-  padding: 0 20%;
+  padding: 30vh 15vw;
+
 }
 
 span, a {

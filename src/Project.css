@@ -1,15 +1,44 @@
 .Project {
-  width: 75vw;
-  height: 100vh;
-  padding:10vh 5% 5% 10vw;
-  text-align: left;
+  position:absolute;
+  padding: 18vh 15vw;
+  width: 48vw;
+  height: auto;
+
+}
+
+.Project:hover{
+ 
 }
 
 .Project h1 {
-  font-size: 6vw;
+  font-size: 4vw;
+  color: black;
   margin: 0 0 5vh 0;
+  text-transform: capitalize;
+}
+
+.Project h2 {
+  font-size: 2vw;
+  color: black;
+  text-align: left;
+  margin: 0 0 5vh 0;
+  text-transform: capitalize;
 }
 
 .Project p {
+  font-size: 1em;
+  text-align: left;
+  margin: 0 0 2vw 0;
+}
 
+img {
+  width: 48vw;
+ 
+  height: auto;
+  margin: 0vw 0 2vw 0;
+  transition: 0.3s;
+}
+
+img{
+  
 }

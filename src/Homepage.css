@@ -1,24 +1,15 @@
 .Homepage {
-  text-align: center;
-  display: grid;
-  grid-template-columns:75vw;
-  grid-template-rows: 100vh;
+  
+  position:absolute;
+  margin: 18vh 15vw;
+  width: 63vw;
+  height: 62vh;
   overflow: hidden;
+  /*background: white;*/
+  background-image: url("https://user-images.githubusercontent.com/15258799/57022768-4612bb80-6c5a-11e9-820d-9f0532f92303.gif");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 
 /* components */
-.imageWrapper {
-  grid-row: 1;
-  grid-column-start: 1/2;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.imageWrapper img {
-  width: 90%;
-  height: auto;
-  /* border: 1px solid red;
-  padding: 2%; */
-}

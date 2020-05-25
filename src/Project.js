@@ -1,26 +1,29 @@
 import React, { Component } from "react";
-
-import "./App.css";
-import "./About.css";
-
+import './Project.css';
 
 class Project extends Component {
-  constructor(props) {
-    super(props);
-  }
+	render() {
 
-  render() {
+	let divStyle = {
+  		backgroundColor: "#" + this.props.backCol
+	};
+   		
     return (
-      <div className="Project">
-        <div className="para">
-          <h1>
-          Uh... This is awkward...
-          </h1>
-          <p>
-          I'm currently still writing the code for this part. If you like, you can download the pdf version of the portfolio <a href="https://drive.google.com/open?id=17e4sgCcPEhqvgychJFk4K-o74r1p-i7J" target="_blank">here</a>.
-          </p>
-        </div>
-      </div>
+      <div className="Project" style={divStyle}>
+           <h1>{this.props.name}</h1>
+           <p>{this.props.body}</p>
+           <img src={this.props.Hero}/>
+	       <img src={this.props.One}/>
+	       <p>{this.props.OText}</p>
+	       <img src={this.props.Two}/>
+	       <img src={this.props.Three}/>
+	       <h2>{this.props.TText}</h2>
+	       <img src={this.props.Four}/>
+	       <img src={this.props.Five}/>
+	       
+
+	       
+	  </div>
     );
   }
 }

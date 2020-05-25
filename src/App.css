@@ -1,9 +1,8 @@
 .App {
   text-align: center;
   display: grid;
-  grid-template-columns: 75vw 25vw;
+  grid-template-columns: 75vw 20vw 5vw;
   grid-template-rows: 100vh;
-  overflow: hidden;
 }
 
 :hover {
@@ -49,7 +48,7 @@ h2 {
 
 p {
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 600;
   padding: 0;
   margin: 0 5% 0 0;
   color: black;
@@ -57,34 +56,26 @@ p {
   line-height: 1.5em;
 }
 
+
 /* component */
 .menu {
-  grid-column: 2;
-  grid-row: 1;
-  padding: 5% 0;
+  padding: 15vh 0 0 75vw;
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  z-index: 3;
+  position: fixed;
 
-}
-
-.content {
-  grid-column: 1;
-  grid-row-start: 1;
 }
 
 .titles {
-  /* grid-row: 2;
-  grid-column-start: 2; */
   text-align: left;
   margin: 0;
   overflow: scroll;
-  /* padding:10vh 0; */
-  width: 100%;
+  width: 85%;
 }
-
 
 /* anim */
 .fade-appear,
